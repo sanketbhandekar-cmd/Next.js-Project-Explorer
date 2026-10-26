@@ -1,0 +1,327 @@
+[
+  {
+    "id": "1",
+    "title": "Next.js Web Portal",
+    "slug": "nextjs-web-portal",
+    "summary": "Internal company web portal built with Next.js App Router and React Server Components.",
+    "description": "The Next.js Web Portal serves as the primary collaboration platform for employees. It provides role-based access, document management, and centralized team workspaces.",
+    "category": "Web Development",
+    "status": "active",
+    "priority": "High",
+    "progress": 75,
+    "lead": {
+      "name": "Sanket Bhandekar",
+      "role": "Frontend Lead",
+      "email": "sanket.bhandekar@example.com",
+      "department": "Engineering"
+    },
+    "team": [
+      {
+        "id": "101",
+        "name": "Sanket Bhandekar",
+        "role": "Frontend Lead",
+        "email": "sanket.bhandekar@example.com",
+        "department": "Engineering"
+      },
+      {
+        "id": "102",
+        "name": "Vinay Gahane",
+        "role": "Full Stack Developer",
+        "email": "vinay.gahane@example.com",
+        "department": "Engineering"
+      },
+      {
+        "id": "103",
+        "name": "Mangesh Ladke",
+        "role": "UI/UX Designer",
+        "email": "mangesh.ladke@example.com",
+        "department": "Design"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "t1",
+        "title": "Setup App Router file structure and layouts",
+        "status": "completed",
+        "priority": "High",
+        "assignee": "Sanket Bhandekar",
+        "dueDate": "2026-11-01"
+      },
+      {
+        "id": "t2",
+        "title": "Implement Server Component data fetching",
+        "status": "completed",
+        "priority": "High",
+        "assignee": "Vinay Gahane",
+        "dueDate": "2026-11-05"
+      },
+      {
+        "id": "t3",
+        "title": "Configure client-side theme toggling",
+        "status": "in-progress",
+        "priority": "Medium",
+        "assignee": "Sanket Bhandekar",
+        "dueDate": "2026-11-10"
+      },
+      {
+        "id": "t4",
+        "title": "Add documentation catch-all route",
+        "status": "todo",
+        "priority": "Low",
+        "assignee": "Mangesh Ladke",
+        "dueDate": "2026-11-15"
+      }
+    ],
+    "activity": [
+      {
+        "id": "a1",
+        "user": "Sanket Bhandekar",
+        "action": "merged pull request",
+        "target": "feat: add nested layout and navigation tabs",
+        "timestamp": "10 minutes ago"
+      },
+      {
+        "id": "a2",
+        "user": "Vinay Gahane",
+        "action": "completed task",
+        "target": "Implement Server Component data fetching",
+        "timestamp": "2 hours ago"
+      },
+      {
+        "id": "a3",
+        "user": "Mangesh Ladke",
+        "action": "updated wireframes",
+        "target": "Design System v1.0",
+        "timestamp": "Yesterday"
+      }
+    ],
+    "docs": {
+      "": {
+        "title": "Next.js Web Portal Documentation",
+        "summary": "Overview and getting started guide for the portal project.",
+        "content": "Welcome to the Next.js Web Portal project documentation. This guide explains how to install dependencies, configure environment settings, and navigate the application modules."
+      },
+      "setup": {
+        "title": "Project Setup Guide",
+        "summary": "Step-by-step instructions for setting up the local development environment.",
+        "content": "To set up the project locally, clone the repository and run `npm install`. Make sure you are using Node.js version 18.18 or higher."
+      },
+      "setup/database": {
+        "title": "Database Setup & Configuration",
+        "summary": "Configuring the database connection and initial schema migrations.",
+        "content": "The application connects to a PostgreSQL database. Set the DATABASE_URL environment variable in your local .env file before starting the development server."
+      }
+    }
+  },
+  {
+    "id": "2",
+    "title": "Analytics Dashboard",
+    "slug": "analytics-dashboard",
+    "summary": "Executive analytics dashboard for tracking company KPIs and project metrics.",
+    "description": "An interactive dashboard providing executive leadership with visibility into quarterly milestones, project statuses, and team capacity.",
+    "category": "Data Analytics",
+    "status": "completed",
+    "priority": "Medium",
+    "progress": 100,
+    "lead": {
+      "name": "Vishal Khedekar",
+      "role": "Data Analyst Lead",
+      "email": "vishal.khedekar@example.com",
+      "department": "Data Team"
+    },
+    "team": [
+      {
+        "id": "201",
+        "name": "Vishal Khedekar",
+        "role": "Data Analyst Lead",
+        "email": "vishal.khedekar@example.com",
+        "department": "Data Team"
+      },
+      {
+        "id": "202",
+        "name": "Chetan Falke",
+        "role": "BI Engineer",
+        "email": "chetan.falke@example.com",
+        "department": "Data Team"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "t21",
+        "title": "Design summary KPI cards",
+        "status": "completed",
+        "priority": "High",
+        "assignee": "Vishal Khedekar",
+        "dueDate": "2026-10-15"
+      },
+      {
+        "id": "t22",
+        "title": "Integrate chart telemetry feed",
+        "status": "completed",
+        "priority": "Medium",
+        "assignee": "Chetan Falke",
+        "dueDate": "2026-10-25"
+      }
+    ],
+    "activity": [
+      {
+        "id": "a21",
+        "user": "Vishal Khedekar",
+        "action": "released version 1.0",
+        "target": "Production Dashboard Deployment",
+        "timestamp": "3 days ago"
+      }
+    ],
+    "docs": {
+      "": {
+        "title": "Analytics Dashboard Overview",
+        "summary": "Metric calculation references and data pipeline specs.",
+        "content": "This dashboard aggregates project status records and computes sprint completion rates across active repositories."
+      },
+      "setup": {
+        "title": "Analytics Data Pipeline Setup",
+        "summary": "Instructions for connecting local dashboard to metric sources.",
+        "content": "Configure metric ingestion endpoints by providing API keys in your environment configuration."
+      }
+    }
+  },
+  {
+    "id": "3",
+    "title": "Mobile App API",
+    "slug": "mobile-app-api",
+    "summary": "High-throughput API endpoints powering Android and iOS client apps.",
+    "description": "Backend services supporting mobile push notifications, offline syncing, and authentication services.",
+    "category": "Mobile Backend",
+    "status": "active",
+    "priority": "High",
+    "progress": 60,
+    "lead": {
+      "name": "Chetan Kshirsagar",
+      "role": "Backend Lead",
+      "email": "chetan.kshirsagar@example.com",
+      "department": "Backend Core"
+    },
+    "team": [
+      {
+        "id": "301",
+        "name": "Chetan Kshirsagar",
+        "role": "Backend Lead",
+        "email": "chetan.kshirsagar@example.com",
+        "department": "Backend Core"
+      },
+      {
+        "id": "302",
+        "name": "Vinay Gahane",
+        "role": "API Developer",
+        "email": "vinay.gahane@example.com",
+        "department": "Backend Core"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "t31",
+        "title": "Add JWT token refresh endpoint",
+        "status": "completed",
+        "priority": "High",
+        "assignee": "Chetan Kshirsagar",
+        "dueDate": "2026-10-20"
+      },
+      {
+        "id": "t32",
+        "title": "Implement rate limiting middleware",
+        "status": "in-progress",
+        "priority": "Medium",
+        "assignee": "Vinay Gahane",
+        "dueDate": "2026-11-12"
+      }
+    ],
+    "activity": [
+      {
+        "id": "a31",
+        "user": "Chetan Kshirsagar",
+        "action": "merged PR",
+        "target": "fix: update token expiration logic",
+        "timestamp": "4 hours ago"
+      }
+    ],
+    "docs": {
+      "": {
+        "title": "Mobile App API Specification",
+        "summary": "Endpoints, headers, and payload structures.",
+        "content": "API endpoints require Bearer token authorization in the request headers."
+      },
+      "setup": {
+        "title": "API Gateway Setup",
+        "summary": "Running the API service on localhost:4000.",
+        "content": "Run `npm run start:api` to launch mock gateway servers for development."
+      }
+    }
+  },
+  {
+    "id": "4",
+    "title": "Cloud Infrastructure Setup",
+    "slug": "cloud-infrastructure",
+    "summary": "Automated deployment scripts and container configurations.",
+    "description": "CI/CD configuration pipelines and Docker container orchestration for internal staging servers.",
+    "category": "DevOps",
+    "status": "in-progress",
+    "priority": "Medium",
+    "progress": 40,
+    "lead": {
+      "name": "Mangesh Ladke",
+      "role": "DevOps Engineer",
+      "email": "mangesh.ladke@example.com",
+      "department": "Operations"
+    },
+    "team": [
+      {
+        "id": "401",
+        "name": "Mangesh Ladke",
+        "role": "DevOps Engineer",
+        "email": "mangesh.ladke@example.com",
+        "department": "Operations"
+      },
+      {
+        "id": "402",
+        "name": "Vishal Khedekar",
+        "role": "Cloud Specialist",
+        "email": "vishal.khedekar@example.com",
+        "department": "Operations"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "t41",
+        "title": "Write Dockerfile for Next.js production build",
+        "status": "completed",
+        "priority": "High",
+        "assignee": "Mangesh Ladke",
+        "dueDate": "2026-10-18"
+      },
+      {
+        "id": "t42",
+        "title": "Configure GitHub Actions workflow",
+        "status": "in-progress",
+        "priority": "High",
+        "assignee": "Vishal Khedekar",
+        "dueDate": "2026-11-08"
+      }
+    ],
+    "activity": [
+      {
+        "id": "a41",
+        "user": "Mangesh Ladke",
+        "action": "created branch",
+        "target": "ci/github-actions-matrix",
+        "timestamp": "1 day ago"
+      }
+    ],
+    "docs": {
+      "": {
+        "title": "Infrastructure Runbook",
+        "summary": "Server provisioning and deployment guide.",
+        "content": "Contains instructions for running staging clusters and deploying updates."
+      }
+    }
+  }
+]
